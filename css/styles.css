@@ -44,7 +44,7 @@ h6 {
   font-family: "Iceberg", cursive;
   font-size: 2vh;
   letter-spacing: 2px;
-  margin-left: 6px;
+  margin-left: 16px;
 }
 
 .bg-primary {
@@ -365,4 +365,7 @@ header.masthead p {
 }
 #main-footer span {
   font-size: 1rem;
+}
+#contact p {
+  font-size: 1.2rem;
 }

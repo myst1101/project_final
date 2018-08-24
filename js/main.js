@@ -74,11 +74,11 @@
   sr.reveal(
     ".text-animate",
     {
-      duration: 1000,
-      scale: 0.5,
-      distance: "4px"
+      duration: 800,
+      scale: 0.3,
+      distance: "0px"
     },
-    200
+    400
   );
 
   // Magnific popup calls
