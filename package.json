@@ -4,7 +4,8 @@
   "description": "One Page Business site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d /project_version1/project_v1"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/myst1101/project_final/issues"
   },
-  "homepage": "https://github.com/myst1101/project_final#readme",
+  "homepage": "https://myst1101.github.io/project_final",
   "dependencies": {
     "gh-pages": "^1.2.0"
   }
