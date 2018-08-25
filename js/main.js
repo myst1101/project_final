@@ -75,7 +75,35 @@
     ".text-animate",
     {
       duration: 800,
-      scale: 0.3,
+      scale: 0.7,
+      distance: "0px"
+    },
+    400
+  );
+
+  sr.reveal(
+    ".text-anim",
+    {
+      duration: 800,
+      scale: 0.7,
+      distance: "0px"
+    },
+    400
+  );
+  sr.reveal(
+    ".text-animate1",
+    {
+      duration: 800,
+      scale: 0.7,
+      distance: "0px"
+    },
+    400
+  );
+  sr.reveal(
+    ".text-animate2",
+    {
+      duration: 800,
+      scale: 0.7,
       distance: "0px"
     },
     400
