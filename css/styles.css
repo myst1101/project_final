@@ -42,9 +42,9 @@ h1 {
 
 h6 {
   font-family: "Iceberg", cursive;
-  font-size: 2vh;
+  font-size: 2.5vh;
   letter-spacing: 2px;
-  margin-left: 16px;
+  padding: 0 auto;
 }
 
 .bg-primary {
@@ -99,11 +99,20 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  font-size: 5vh;
+  font-size: 6vh;
   font-weight: 200;
   text-transform: uppercase;
   color: #3b3b3b;
   font-family: "Iceberg", cursive !important;
+}
+
+#mainNav a.navbar-brand {
+  line-height: 3.5rem;
+}
+
+div.navbarBrand h6 {
+  text-align: center;
+  margin-left: -20px;
 }
 
 #mainNav .navbar-brand:focus,
@@ -232,14 +241,75 @@ header.masthead p {
   }
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 450px) {
   h2.text-anim {
     font-size: 24px;
   }
+  a.navbar-brand sup {
+    font-size: 1.35rem !important;
+  }
 }
 
-.service-box {
-  max-width: 400px;
+@media (min-width: 451px) {
+  a.navbar-brand sup {
+    font-size: 1.22rem;
+  }
+}
+*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  h2.text-anim {
+    font-size: 24px;
+  }
+  #mainNav a.navbar-brand {
+    line-height: 3.5rem !important;
+  }
+  a.navbar-brand sup {
+    font-size: 1.45rem !important;
+  }
+  header.masthead {
+    margin-top: 50px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header.masthead {
+    margin-top: 100px;
+  }
+  a.navbar-brand sup {
+    font-size: 1.9rem !important;
+  }
+  h2.text-anim {
+    font-size: 2.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  a.navbar-brand sup {
+    font-size: 2.5rem !important;
+  }
+  #mainNav a.navbar-brand {
+    line-height: 3.5rem !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  a.navbar-brand sup {
+    font-size: 1.3rem !important;
+  }
+  h2.section-heading {
+    font-size: 3rem;
+  }
+  #about.text-faded {
+    font-size: 3rem;
+  }
 }
 
 .portfolio-box {
